@@ -2,8 +2,10 @@
   "name": "web",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Zakhar799/Web/issues"
   },
