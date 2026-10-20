@@ -1,0 +1,93 @@
+{
+  "surveyId": "surv_01",
+  "title": "Опитування щодо якості дистанційного навчання",
+  "description": "Анонімне опитування студентів факультету комп'ютерних наук",
+  "isActive": true,
+  "closedAt": null,
+  "questions": [
+    {
+      "questionId": "q1",
+      "text": "Оцініть зручність платформи дистанційного навчання (1-5)",
+      "type": "scale",
+      "isRequired": true,
+      "options": null,
+      "scaleMin": 1,
+      "scaleMax": 5
+    },
+    {
+      "questionId": "q2",
+      "text": "Якими браузерами ви найчастіше користуєтеся?",
+      "type": "multiple_choice",
+      "isRequired": true,
+      "options": [ "Firefox","Google","Edge","Safari" ],
+      "scaleMin": null,
+      "scaleMax": null
+    },
+    {
+      "questionId": "q3",
+      "text": "Оберіть ваш основний пристрій для навчання",
+      "type": "single_choice",
+      "isRequired": true,
+      "options": [ "Ноутбук","ПК","Планшет" ],
+      "scaleMin": null,
+      "scaleMax": null
+    },
+    {
+      "questionId": "q4",
+      "text": "Ваші побажання щодо покращення курсів",
+      "type": "free_text",
+      "isRequired": false,
+      "options": null,
+      "scaleMin": null,
+      "scaleMax": null
+    }
+  ],
+  "responses": [
+    {
+      "responseId": "resp_001",
+      "respondentId": "user_1",
+      "submittedAt": "2026-09-12",
+      "answers": [
+        {
+          "questionId": "q1",
+          "value": 5
+        },
+        {
+          "questionId": "q2",
+          "value": [ "Firefox","Google"]
+        },
+        {
+          "questionId": "q3",
+          "value": "Ноутбук"
+        },
+        {
+          "questionId": "q4",
+          "value": "Додати більше практичних завдань"
+        }
+      ]
+    },
+    {
+      "responseId": "resp_002",
+      "respondentId": "user_5",
+      "submittedAt": "2026-09-13",
+      "answers": [
+        {
+          "questionId": "q1",
+          "value": 4
+        },
+        {
+          "questionId": "q2",
+          "value": "Firefox"
+        },
+        {
+          "questionId": "q3",
+          "value": "ПК"
+        },
+        {
+          "questionId": "q4",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
